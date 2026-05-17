@@ -1,28 +1,19 @@
 site_name: The Cybersecurity Archive
 site_description: A structured knowledge base for beginners to advanced learners.
-site_url: https://yourusername.github.io/The_Cybersecurity_Archive
-repo_url: https://github.com/yourusername/The_Cybersecurity_Archive
+site_url: https://mitm22452.github.io/The_Cybersecurity_Archive
+repo_url: https://github.com/mitm22452/The_Cybersecurity_Archive
 repo_name: The_Cybersecurity_Archive
 edit_uri: edit/main/docs/
 
 theme:
   name: material
   font:
-    text: Inter
+    text: JetBrains Mono
     code: JetBrains Mono
   palette:
     - scheme: slate
-      primary: black
-      accent: cyan
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-    - scheme: default
-      primary: black
-      accent: cyan
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
+      primary: custom
+      accent: custom
   features:
     - navigation.tabs
     - navigation.sections
@@ -37,11 +28,15 @@ theme:
     - content.action.edit
   icon:
     repo: fontawesome/brands/github
+  custom_dir: overrides
+
+extra_css:
+  - stylesheets/extra.css
 
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/yourusername/The_Cybersecurity_Archive
+      link: https://github.com/mitm22452/The_Cybersecurity_Archive
 
 markdown_extensions:
   - admonition
