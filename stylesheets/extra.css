@@ -210,3 +210,22 @@ body,
   font-family: "JetBrains Mono", monospace !important;
   font-size: 0.78rem;
 }
+
+/* ── Hide paragraph anchor symbols ── */
+.md-typeset .headerlink {
+  display: none;
+}
+
+/* ── Smaller sidebar text ── */
+.md-nav__link {
+  font-size: 0.72rem !important;
+}
+
+.md-nav__title {
+  font-size: 0.78rem !important;
+}
+
+/* ── Tighter sidebar spacing ── */
+.md-nav__item {
+  padding: 0 !important;
+}
